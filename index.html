@@ -1,0 +1,1083 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>姐姐的温柔让我沉沦海角社区-情感故事与长文阅读</title>
+<meta name="description" content="姐姐的温柔让我沉沦海角社区，是一个聚焦姐弟关系、长篇情感叙事与深夜阅读的社区。收录真实感故事、连载长文、写作方法、人物书单与读者讨论，提供分类索引、深度解析与投稿指南。">
+<meta name="keywords" content="姐姐的温柔让我沉沦海角社区">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%236b3b2e'/%3E%3Cpath d='M20 44c6-2 8-8 12-14s8-8 12-6' stroke='%23f3d9c0' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='22' cy='22' r='4' fill='%23e8a87c'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#2a211d;
+  --ink-soft:#5c4c44;
+  --paper:#fbf6f0;
+  --paper-2:#f4e9de;
+  --card:#ffffff;
+  --line:#e4d3c2;
+  --brand:#6b3b2e;
+  --brand-2:#a45b3f;
+  --accent:#c9764a;
+  --accent-2:#3f5d52;
+  --ok:#3f6b4f;
+  --warn:#8a5a1f;
+  --radius:14px;
+  --radius-sm:8px;
+  --shadow:0 2px 10px rgba(70,45,30,.07);
+  --shadow-lg:0 10px 30px rgba(70,45,30,.12);
+  --sp:clamp(14px,2.2vw,22px);
+  --font:"Songti SC","Noto Serif SC","Source Han Serif SC",Georgia,"Times New Roman",serif;
+  --font-sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;font-family:var(--font);color:var(--ink);
+  background:
+    radial-gradient(1200px 500px at 85% -10%,#f6e3d3 0%,transparent 55%),
+    radial-gradient(900px 400px at -10% 5%,#efe6da 0%,transparent 60%),
+    var(--paper);
+  line-height:1.85;font-size:16.5px;
+}
+img{max-width:100%;display:block}
+a{color:var(--brand-2);text-decoration:none}
+a:hover{text-decoration:underline}
+h1,h2,h3,h4{font-family:var(--font);line-height:1.35;margin:0 0 .5em}
+h2{font-size:clamp(21px,2.4vw,27px)}
+h3{font-size:clamp(17px,1.8vw,20px)}
+p{margin:0 0 1em}
+ul,ol{margin:0 0 1em;padding-left:1.3em}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:4px}
+.wrap{width:min(1180px,100% - 2*var(--sp));margin-inline:auto}
+.skip{position:absolute;left:-9999px;top:0;background:var(--brand);color:#fff;padding:10px 16px;z-index:200}
+.skip:focus{left:8px;top:8px}
+
+/* ============ 吸顶公告 + 页头 ============ */
+.sticky-top{position:sticky;top:0;z-index:60}
+.notice{
+  background:var(--brand);color:#f7e7d8;font-family:var(--font-sans);
+  font-size:13.5px;padding:7px 0;letter-spacing:.02em;
+}
+.notice .wrap{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.notice .tag{
+  background:#e8a87c;color:#3a2118;border-radius:999px;
+  font-size:11.5px;padding:2px 9px;font-weight:700;white-space:nowrap;
+}
+.notice a{color:#ffe9d4;text-decoration:underline;text-underline-offset:3px}
+.notice .dot{width:6px;height:6px;border-radius:50%;background:#e8a87c;display:inline-block;margin-right:6px}
+
+header.site-head{
+  background:rgba(251,246,240,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+  box-shadow:0 1px 0 rgba(255,255,255,.6);
+}
+.head-inner{display:flex;align-items:center;gap:18px;padding:12px 0;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:11px;min-width:0}
+.brand .mark{flex:none}
+.brand .bt{display:flex;flex-direction:column;line-height:1.25;min-width:0}
+.brand .bt b{font-size:17px;letter-spacing:.01em;color:var(--brand)}
+.brand .bt span{font-family:var(--font-sans);font-size:11.5px;color:var(--ink-soft);letter-spacing:.14em}
+.nav-toggle{
+  display:none;margin-left:auto;font-family:var(--font-sans);font-size:14px;
+  background:#fff;border:1px solid var(--line);color:var(--brand);
+  padding:8px 14px;border-radius:999px;cursor:pointer;
+}
+.nav-toggle:focus-visible{outline:3px solid var(--accent)}
+nav.main-nav{margin-left:auto;font-family:var(--font-sans);font-size:14.5px}
+nav.main-nav ul{display:flex;gap:4px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav.main-nav a{
+  display:block;padding:7px 11px;border-radius:999px;color:var(--ink-soft);
+  text-decoration:none;transition:background .18s,color .18s,transform .18s;
+}
+nav.main-nav a:hover,nav.main-nav a:focus-visible{background:var(--paper-2);color:var(--brand);transform:translateY(-2px)}
+nav.main-nav a.active{background:var(--brand);color:#fff5ec}
+.search{display:flex;align-items:center;gap:6px;font-family:var(--font-sans)}
+.search input{
+  font-family:var(--font-sans);font-size:14px;padding:8px 12px;width:170px;
+  border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--ink);
+}
+.search input:focus{outline:2px solid var(--accent);outline-offset:1px}
+.search button{
+  font-family:var(--font-sans);font-size:13.5px;background:var(--brand);color:#fff;
+  border:0;border-radius:999px;padding:8px 14px;cursor:pointer;
+}
+.search button:hover{background:var(--brand-2)}
+.search-msg{font-family:var(--font-sans);font-size:13px;color:var(--warn);flex-basis:100%;margin:0}
+
+/* ============ 首屏 ============ */
+.hero{position:relative;padding:clamp(30px,5vw,62px) 0 clamp(26px,4vw,48px);overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(20px,4vw,48px);align-items:center}
+.kicker{
+  font-family:var(--font-sans);font-size:12.5px;letter-spacing:.28em;
+  color:var(--brand-2);text-transform:uppercase;margin-bottom:12px;display:flex;align-items:center;gap:10px;
+}
+.kicker::before{content:"";width:34px;height:1px;background:var(--brand-2)}
+.hero h1{font-size:clamp(28px,4.4vw,48px);letter-spacing:-.01em;color:var(--brand);margin-bottom:16px}
+.hero .lead{font-size:clamp(15.5px,1.7vw,18px);color:var(--ink-soft);max-width:34em}
+.hero .lead strong{color:var(--ink);font-weight:700}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;font-family:var(--font-sans)}
+.btn{
+  display:inline-block;padding:11px 20px;border-radius:999px;font-size:14.5px;
+  border:1px solid var(--brand);color:var(--brand);background:transparent;
+  text-decoration:none;transition:transform .18s,background .18s,color .18s;
+}
+.btn:hover{background:var(--brand);color:#fff8f1;text-decoration:none;transform:translateY(-2px)}
+.btn.solid{background:var(--brand);color:#fff8f1}
+.btn.solid:hover{background:var(--brand-2);border-color:var(--brand-2)}
+.hero-stats{
+  display:flex;gap:26px;flex-wrap:wrap;margin-top:30px;font-family:var(--font-sans);
+  border-top:1px dashed var(--line);padding-top:18px;
+}
+.hero-stats div{display:flex;flex-direction:column;gap:2px}
+.hero-stats b{font-size:22px;color:var(--brand);font-family:var(--font)}
+.hero-stats span{font-size:12.5px;color:var(--ink-soft);letter-spacing:.04em}
+.hero-art{position:relative;aspect-ratio:1/1;max-width:420px;margin-inline:auto;display:flex;align-items:center;justify-content:center}
+.hero-art svg{width:100%;height:auto;filter:drop-shadow(0 14px 30px rgba(90,55,35,.13))}
+.hero-note{
+  position:absolute;font-family:var(--font-sans);font-size:12px;color:var(--ink-soft);
+  background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 11px;
+  box-shadow:var(--shadow);
+}
+.hero-note.n1{top:8%;left:-2%}
+.hero-note.n2{bottom:12%;right:-4%}
+.hero-note.n3{bottom:2%;left:12%}
+
+/* ============ 通用板块 ============ */
+section.block{padding:clamp(30px,4.4vw,54px) 0}
+section.block + section.block{border-top:1px solid var(--line)}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+.sec-head .st{max-width:44em}
+.sec-head .tagline{font-family:var(--font-sans);font-size:13px;color:var(--ink-soft);margin:0}
+.sec-head h2{color:var(--brand);margin-bottom:6px}
+.more-link{font-family:var(--font-sans);font-size:13.5px;white-space:nowrap}
+
+/* 三栏门户 */
+.grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--sp)}
+.grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--sp)}
+
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px 20px;box-shadow:var(--shadow);transition:transform .18s,box-shadow .18s;
+  display:flex;flex-direction:column;min-width:0;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.card h3{margin-bottom:6px;color:var(--ink)}
+.card h3 a{color:inherit}
+.card p{color:var(--ink-soft);font-size:15px;margin-bottom:.6em}
+.meta{font-family:var(--font-sans);font-size:12.5px;color:var(--ink-soft);display:flex;gap:10px;flex-wrap:wrap;margin-top:auto}
+.meta .pill{background:var(--paper-2);border-radius:999px;padding:1px 9px;color:var(--brand-2)}
+.thumb{border-radius:var(--radius-sm);overflow:hidden;margin:-6px -6px 12px;aspect-ratio:16/9;background:var(--paper-2)}
+.thumb img{width:100%;height:100%;object-fit:cover;transition:transform .35s}
+.card:hover .thumb img{transform:scale(1.03)}
+
+/* 紧凑列表 */
+.list{list-style:none;margin:0;padding:0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.list li{border-bottom:1px solid var(--line);padding:13px 18px;display:flex;gap:14px;align-items:flex-start}
+.list li:last-child{border-bottom:0}
+.list time{font-family:var(--font-sans);font-size:12.5px;color:var(--brand-2);white-space:nowrap;padding-top:2px;min-width:66px}
+.list .li-body{min-width:0}
+.list .li-body b{font-weight:700;color:var(--ink)}
+.list .li-body p{margin:2px 0 0;font-size:14.5px;color:var(--ink-soft)}
+
+/* 分类标签索引 */
+.tag-index{display:flex;flex-wrap:wrap;gap:9px;font-family:var(--font-sans)}
+.tag-index a{
+  display:inline-flex;align-items:center;gap:6px;font-size:14px;
+  background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 15px;
+  color:var(--ink-soft);text-decoration:none;transition:all .18s;
+}
+.tag-index a:hover,.tag-index a:focus-visible{background:var(--brand);border-color:var(--brand);color:#fff8f1;transform:translateY(-2px)}
+.tag-index a small{font-size:11.5px;opacity:.72}
+
+/* 深度解析：全页唯一主体阅读区 */
+.deep{
+  background:linear-gradient(180deg,#fffdfa,#fdf5ec);
+  border:1px solid var(--line);border-radius:calc(var(--radius) + 4px);
+  padding:clamp(20px,3.4vw,38px);box-shadow:var(--shadow);
+}
+.deep .body-cols{column-count:2;column-gap:clamp(24px,3.4vw,44px)}
+.deep .body-cols > h3{break-after:avoid}
+.deep h3{color:var(--brand);margin-top:1.4em}
+.deep h3:first-child{margin-top:0}
+.deep p{font-size:16px}
+.deep .callout{
+  break-inside:avoid;background:#f7ece0;border-left:4px solid var(--accent);
+  border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:14px 18px;margin:0 0 1em;
+  font-size:15.5px;
+}
+.deep .callout b{color:var(--brand)}
+.checklist{
+  break-inside:avoid;background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:14px 18px;margin:0 0 1em;
+}
+.checklist h4{margin:0 0 8px;font-size:15px;color:var(--accent-2);font-family:var(--font-sans)}
+.checklist ol{margin:0;padding-left:1.2em}
+.checklist li{font-size:15px;margin-bottom:6px}
+.checklist li span{color:var(--ink-soft)}
+
+/* 对照面板 */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#fff}
+.compare > div{padding:16px 18px;font-size:15px}
+.compare > div:first-child{border-right:1px solid var(--line);background:#fcf7f1}
+.compare h4{font-family:var(--font-sans);font-size:13px;letter-spacing:.1em;margin:0 0 10px}
+.compare ul{margin:0;padding-left:1.1em}
+.compare li{margin-bottom:6px}
+
+/* 编号步骤 */
+.steps{list-style:none;counter-reset:s;margin:0;padding:0;display:grid;gap:12px}
+.steps li{
+  counter-increment:s;position:relative;background:#fff;border:1px solid var(--line);
+  border-radius:var(--radius);padding:16px 18px 16px 60px;
+}
+.steps li::before{
+  content:counter(s,decimal-leading-zero);position:absolute;left:16px;top:15px;
+  font-family:var(--font-sans);font-size:15px;font-weight:700;color:var(--accent);
+  background:var(--paper-2);width:32px;height:32px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+}
+.steps b{display:block;margin-bottom:3px;color:var(--brand)}
+.steps p{margin:0;font-size:15px;color:var(--ink-soft)}
+
+/* 引语卡 / 用户评论 */
+.quote-card{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px 20px;position:relative;box-shadow:var(--shadow);display:flex;flex-direction:column;
+}
+.quote-card::before{
+  content:"“";font-family:Georgia,serif;font-size:52px;color:#e8c5ab;line-height:.6;
+  position:absolute;top:14px;left:16px;
+}
+.quote-card p{margin:12px 0 10px;font-size:15.5px;padding-left:8px}
+.quote-card .who{font-family:var(--font-sans);font-size:12.5px;color:var(--ink-soft);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.quote-card .who .avatar{
+  width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,#e8a87c,#a45b3f);
+  color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;
+}
+.sentiment{font-size:11.5px;border-radius:999px;padding:1px 8px;border:1px solid var(--line);color:var(--ink-soft)}
+.sentiment.crit{background:#fdf0e8;border-color:#e9c3ab;color:#8a4a25}
+.sentiment.neutral{background:#f1efe9;border-color:#d9d2c4;color:#5c5548}
+
+/* FAQ */
+.faq{display:grid;gap:10px}
+details{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+}
+details[open]{box-shadow:var(--shadow)}
+summary{
+  cursor:pointer;padding:15px 46px 15px 18px;font-weight:700;font-size:16px;
+  list-style:none;position:relative;color:var(--brand);
+}
+summary::-webkit-details-marker{display:none}
+summary::after{
+  content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);
+  font-family:var(--font-sans);font-size:20px;color:var(--accent);font-weight:400;
+}
+details[open] summary::after{content:"–"}
+details .ans{padding:0 18px 16px;font-size:15.5px;color:var(--ink-soft)}
+details .ans p:last-child{margin-bottom:0}
+
+/* 时间线 */
+.timeline{list-style:none;margin:0;padding:0 0 0 26px;position:relative}
+.timeline::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--accent),#e6d2bf)}
+.timeline li{position:relative;margin-bottom:20px}
+.timeline li::before{
+  content:"";position:absolute;left:-24px;top:7px;width:10px;height:10px;border-radius:50%;
+  background:#fff;border:2px solid var(--accent);
+}
+.timeline time{font-family:var(--font-sans);font-size:12.5px;color:var(--brand-2);letter-spacing:.03em}
+.timeline b{display:block;margin:1px 0 2px;font-size:16px}
+.timeline p{margin:0;font-size:15px;color:var(--ink-soft)}
+
+/* 榜单 */
+.rank{list-style:none;margin:0;padding:0;counter-reset:r;display:grid;gap:10px}
+.rank li{
+  counter-increment:r;display:flex;gap:14px;align-items:baseline;
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:12px 16px;font-size:15.5px;
+}
+.rank li::before{
+  content:counter(r);font-family:var(--font-sans);font-weight:700;color:#fff;background:var(--brand);
+  width:24px;height:24px;border-radius:7px;display:inline-flex;align-items:center;justify-content:center;
+  font-size:13px;flex:none;align-self:center;
+}
+.rank li:nth-child(n+4)::before{background:#b6846d}
+.rank .r-main{flex:1;min-width:0}
+.rank .r-main b{display:block}
+.rank .r-main span{font-size:13.5px;color:var(--ink-soft)}
+.rank .r-score{font-family:var(--font-sans);font-size:12.5px;color:var(--brand-2);white-space:nowrap}
+
+/* 双栏标准布局：主文 + 侧栏 */
+.layout-2{display:grid;grid-template-columns:minmax(0,1fr) 312px;gap:clamp(22px,3vw,38px);align-items:start}
+.sidebar{position:sticky;top:112px;display:grid;gap:16px}
+.side-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow)}
+.side-card h3{font-size:16px;margin-bottom:10px;color:var(--brand)}
+.side-card nav ul{list-style:none;margin:0;padding:0;font-family:var(--font-sans);font-size:14px}
+.side-card nav a{
+  display:block;padding:6px 9px;border-radius:7px;color:var(--ink-soft);text-decoration:none;
+  border-left:2px solid transparent;
+}
+.side-card nav a:hover{background:var(--paper-2);color:var(--brand)}
+.side-card nav a.cur{background:var(--paper-2);color:var(--brand);border-left-color:var(--accent);font-weight:700}
+.side-list{list-style:none;margin:0;padding:0;font-size:14.5px}
+.side-list li{padding:8px 0;border-bottom:1px dashed var(--line)}
+.side-list li:last-child{border-bottom:0;padding-bottom:0}
+.side-list time{display:block;font-family:var(--font-sans);font-size:12px;color:var(--brand-2)}
+
+/* 相关推荐标签 */
+.rel-tags{display:flex;flex-wrap:wrap;gap:8px;font-family:var(--font-sans)}
+.rel-tags a{
+  font-size:13.5px;background:#fff;border:1px solid var(--line);border-radius:8px;
+  padding:6px 12px;color:var(--ink-soft);text-decoration:none;transition:all .18s;
+}
+.rel-tags a:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
+
+/* 页尾 */
+footer.site-foot{
+  margin-top:clamp(30px,4vw,56px);background:#2f231e;color:#e3d2c4;
+  padding:clamp(30px,4.4vw,52px) 0 22px;font-size:14.5px;
+}
+footer.site-foot a{color:#f0dccb}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:clamp(20px,3vw,40px)}
+.foot-brand{display:flex;gap:11px;align-items:center;margin-bottom:12px}
+.foot-brand b{font-size:17px;color:#fff3e7}
+.foot-brand span{display:block;font-family:var(--font-sans);font-size:11.5px;color:#b89f8d;letter-spacing:.14em}
+.foot-pitch{color:#cdb8a7;font-size:14px;max-width:26em}
+.foot-col h4{font-family:var(--font-sans);font-size:13px;letter-spacing:.12em;color:#b89f8d;margin:0 0 10px}
+.foot-col ul{list-style:none;margin:0;padding:0;font-family:var(--font-sans);font-size:13.5px}
+.foot-col li{margin-bottom:7px}
+.foot-bottom{
+  margin-top:30px;padding-top:16px;border-top:1px solid #4a3a32;
+  font-family:var(--font-sans);font-size:12.5px;color:#a89080;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+}
+
+/* 回到顶部 */
+#toTop{
+  position:fixed;right:18px;bottom:22px;z-index:70;display:none;
+  width:44px;height:44px;border-radius:50%;border:1px solid var(--line);
+  background:#fff;color:var(--brand);font-family:var(--font-sans);font-size:13px;
+  box-shadow:var(--shadow-lg);cursor:pointer;
+}
+#toTop.show{display:block}
+#toTop:hover{background:var(--brand);color:#fff}
+
+/* 响应式 */
+@media (max-width:960px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-art{max-width:320px;order:-1}
+  .grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .layout-2{grid-template-columns:1fr}
+  .sidebar{position:static;order:2}
+  .deep .body-cols{column-count:1}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  body{font-size:16px}
+  .nav-toggle{display:inline-block}
+  nav.main-nav{
+    display:none;flex-basis:100%;margin-left:0;
+  }
+  nav.main-nav.open{display:block}
+  nav.main-nav ul{flex-direction:column;gap:2px;padding:8px 0 4px}
+  nav.main-nav a{padding:9px 12px;border-radius:9px}
+  .search{flex-basis:100%;margin-bottom:4px}
+  .search input{flex:1;width:auto}
+  .notice{font-size:12.5px}
+}
+@media (max-width:560px){
+  .grid-3,.grid-2{grid-template-columns:1fr}
+  .hero-stats{gap:18px}
+  .compare{grid-template-columns:1fr}
+  .compare > div:first-child{border-right:0;border-bottom:1px solid var(--line)}
+  .list li{flex-direction:column;gap:2px}
+  .list time{min-width:0;padding-top:0}
+  .foot-grid{grid-template-columns:1fr}
+  .deep{padding:16px 15px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+  .card:hover,.tag-index a:hover,.rel-tags a:hover,.btn:hover,nav.main-nav a:hover{transform:none!important}
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"姐姐的温柔让我沉沦海角社区",
+  "description":"聚焦姐弟关系、长篇情感叙事与深夜阅读的中文社区，收录连载故事、写作方法、人物书单与读者讨论。",
+  "inLanguage":"zh-CN"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"姐姐的温柔让我沉沦海角社区收录哪类故事？","acceptedAnswer":{"@type":"Answer","text":"收录以姐弟、邻家姐姐、长姐承担家务等关系为核心的长篇叙事，常见标签有长姐持家、雨夜借伞、旧信重读、方言厨房。每篇标注首次发布时间、连载状态与作者笔名，故事长度多在3000字以上。"}},
+    {"@type":"Question","name":"写长姐叙事时怎么避免人物扁平？","acceptedAnswer":{"@type":"Answer","text":"给姐姐设置至少一项具体负担，比如每月汇款金额、凌晨几点的班次、需要照顾的弟妹人数；再让她拒绝一次。有代价的拒绝能把温柔从性格形容词变成行为选择。"}},
+    {"@type":"Question","name":"站内的连载长文可以一次读完整吗？","acceptedAnswer":{"@type":"Answer","text":"已完结的长文可以按章节顺序阅读，章节页提供上一章、下一章与目录返回。连载中的作品每章末尾会标注下次更新的预计日期，作者可在公告条发布停更或加更说明。"}},
+    {"@type":"Question","name":"为什么同一段故事在不同栏目里说法不一样？","acceptedAnswer":{"@type":"Answer","text":"深读栏目保留作者原话与核查结论，动态栏目记录读者转述。转述可能改掉时间、地名或对话措辞，遇到冲突以含日期与账号的原文为准，并把差异写进核查清单。"}},
+    {"@type":"Question","name":"投稿需要写真实姓名和联系方式吗？","acceptedAnswer":{"@type":"Answer","text":"不必。投稿表单只要求笔名、故事发生的大致年份与城市等级，可选填可联系邮箱。涉及第三方隐私的地名、门牌、工作单位请做模糊处理，审核会在48小时内回复一次结果。"}}
+  ]
+}
+</script>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+
+<div class="sticky-top">
+  <div class="notice" role="region" aria-label="站内公告">
+    <div class="wrap">
+      <span class="tag">公告</span>
+      <span><span class="dot"></span>11月6日更新：长文《雨夜借伞的人》第14章已上线，作者砚台旧事同步发布修订说明，改动了1998年冬天的时间线。</span>
+      <a href="/#latest">查看更新明细</a>
+    </div>
+  </div>
+  <header class="site-head">
+    <div class="wrap head-inner">
+      <div class="brand">
+        <span class="mark" aria-hidden="true">
+          <svg width="38" height="38" viewBox="0 0 64 64" role="img">
+            <rect width="64" height="64" rx="14" fill="#6b3b2e"/>
+            <path d="M18 45c7-2 9-9 13-15s9-8 14-6" stroke="#f3d9c0" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <circle cx="21" cy="21" r="4.2" fill="#e8a87c"/>
+            <path d="M40 48c3-1 5-4 6-7" stroke="#e8a87c" stroke-width="3" fill="none" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="bt">
+          <b>姐姐的温柔让我沉沦海角社区</b>
+          <span>长文阅读 · 关系叙事</span>
+        </span>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav">栏目菜单</button>
+      <nav class="main-nav" id="mainNav" aria-label="主导航">
+        <ul>
+          <li><a href="/#overview">领域概览</a></li>
+          <li><a href="/#featured">精选长文</a></li>
+          <li><a href="/#latest">最新更新</a></li>
+          <li><a href="/#channels">分类入口</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#rel">相关推荐</a></li>
+        </ul>
+      </nav>
+      <form class="search" id="searchForm" role="search">
+        <label for="q" class="skip">站内搜索</label>
+        <input id="q" name="q" type="search" placeholder="搜故事、作者、标签…" autocomplete="off">
+        <button type="submit">查找</button>
+        <p class="search-msg" id="searchMsg" role="status" aria-live="polite" hidden></p>
+      </form>
+    </div>
+  </header>
+</div>
+
+<main id="main">
+  <!-- 首屏 -->
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">深夜长文 · 姐姐叙事</p>
+        <h1>姐姐的温柔让我沉沦海角社区</h1>
+        <p class="lead">一个只谈长姐、邻家姐姐、房东姐姐与方言厨房的阅读站点。<strong>342 篇已完结长文</strong>，<strong>17 位常驻作者</strong>，每篇标注首次发布时间与修订记录。适合在夜里十一点之后读，一章千余字，读完刚好合上手机。</p>
+        <div class="hero-actions">
+          <a class="btn solid" href="/#featured">从精选长文读起</a>
+          <a class="btn" href="/#guide">看投稿与阅读指南</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>342</b><span>完结长文</span></div>
+          <div><b>58</b><span>连载中</span></div>
+          <div><b>1,860</b><span>条读者留言</span></div>
+          <div><b>11-06</b><span>最近一次更新</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 420 420" role="img" aria-label="纸上台灯与旧信堆叠的原创插画">
+          <defs>
+            <linearGradient id="gPaper" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#fffaf3"/><stop offset="1" stop-color="#f3e2d1"/>
+            </linearGradient>
+            <linearGradient id="gLamp" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#e8a87c"/><stop offset="1" stop-color="#a45b3f"/>
+            </linearGradient>
+          </defs>
+          <rect x="26" y="60" width="368" height="308" rx="20" fill="url(#gPaper)" stroke="#e4d3c2"/>
+          <path d="M60 318h300" stroke="#dcC3ac" stroke-width="2" stroke-linecap="round"/>
+          <g transform="rotate(-6 210 250)">
+            <rect x="96" y="196" width="228" height="96" rx="8" fill="#fff" stroke="#e4d3c2"/>
+            <path d="M118 222h150M118 242h184M118 262h120" stroke="#dcc7b3" stroke-width="4" stroke-linecap="round"/>
+          </g>
+          <g transform="rotate(4 220 236)">
+            <rect x="112" y="176" width="204" height="82" rx="8" fill="#fffdf9" stroke="#e4d3c2"/>
+            <path d="M132 200h130M132 220h160M132 240h90" stroke="#e6d2bf" stroke-width="4" stroke-linecap="round"/>
+          </g>
+          <path d="M226 104c0-20 22-30 36-16 9 9 8 22-2 30" stroke="#a45b3f" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M206 104h44l24 58h-92z" fill="url(#gLamp)"/>
+          <ellipse cx="262" cy="112" rx="12" ry="6" fill="#f8e3cf"/>
+          <circle cx="96" cy="120" r="10" fill="#e8c5ab"/>
+          <path d="M74 320c10-14 26-22 42-20" stroke="#c9764a" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M330 150c8 6 12 16 10 26" stroke="#3f5d52" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M342 330c-18 8-38 4-46-8" stroke="#dcc7b3" stroke-width="3" fill="none" stroke-linecap="round"/>
+        </svg>
+        <span class="hero-note n1">长姐持家 · 连载第14章</span>
+        <span class="hero-note n2">方言厨房 · 修订于11-05</span>
+        <span class="hero-note n3">今夜在读 327 人</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <!-- 领域概览 -->
+    <section class="block" id="overview" aria-labelledby="h-overview">
+      <div class="sec-head">
+        <div class="st">
+          <h2 id="h-overview">领域概览：长姐叙事到底在写什么</h2>
+          <p class="tagline">先把类型分清楚，再决定读哪一类。</p>
+        </div>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>长姐持家型</h3>
+          <p>姐姐承担家中账目与弟妹学业，冲突常落在汇款数额、农忙时段与谁去城里打工。代表条目：《长姐的账本》记了1994至2003年每笔支出。</p>
+          <p class="meta"><span class="pill">账本叙事</span><span>21篇</span></p>
+        </div>
+        <div class="card">
+          <h3>邻家姐姐型</h3>
+          <p>空间关系明确：同一条巷子、同一层楼、共用一个厨房。故事推进靠借伞、借酱油、代收快递这类具体小事。最常出现的道具是雨伞与搪瓷碗。</p>
+          <p class="meta"><span class="pill">巷弄日常</span><span>44篇</span></p>
+        </div>
+        <div class="card">
+          <h3>年上同事型</h3>
+          <p>发生在工厂、医院、写字楼等有班次与考核的场所。年龄差不写成宿命，写成排班表上的错位：她上白班，他上夜班，一周只见两次。</p>
+          <p class="meta"><span class="pill">班次错位</span><span>33篇</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 精选内容推荐 -->
+    <section class="block" id="featured" aria-labelledby="h-featured">
+      <div class="sec-head">
+        <div class="st">
+          <h2 id="h-featured">精选长文推荐</h2>
+          <p class="tagline">编辑从已完结作品中挑出六篇，均可在两晚读完。</p>
+        </div>
+        <a class="more-link" href="/#channels">按分类浏览全部 →</a>
+      </div>
+      <div class="grid-2">
+        <article class="card">
+          <div class="thumb"><img src="https://picsum.photos/seed/sister-letter-01/640/360" width="640" height="360" loading="lazy" alt="木桌上摊开的旧信与搪瓷茶杯"></div>
+          <h3><a href="/#deep">《雨夜借伞的人》：一把伞借了七年</a></h3>
+          <p>作者砚台旧事。1996年梅雨季，姐姐把家里唯一一把黑伞塞给弟弟，自己淋回家发烧三天。七年后弟弟在同一场雨里替她撑伞，伞骨断了一根。全文9章，约2.1万字。</p>
+          <p class="meta"><span class="pill">已完结</span><span>9章</span><span>更新于11-06</span></p>
+        </article>
+        <article class="card">
+          <div class="thumb"><img src="https://picsum.photos/seed/sister-kitchen-02/640/360" width="640" height="360" loading="lazy" alt="老式厨房里的搪瓷锅与切好的青菜"></div>
+          <h3><a href="/#channels">《方言厨房》：姐姐只会用老家话报菜名</a></h3>
+          <p>作者阿禾。姐姐在县城开小饭馆，菜单全靠嘴报。弟弟负责记账，把“猪油渣炒年糕”听成“猪油渣炒黏糕”，写错三年。全文12章，含27道家常菜的做法细节。</p>
+          <p class="meta"><span class="pill">连载中</span><span>已更7章</span><span>更新于11-04</span></p>
+        </article>
+        <article class="card">
+          <div class="thumb"><img src="https://picsum.photos/seed/sister-stairs-03/640/360" width="640" height="360" loading="lazy" alt="老居民楼楼梯转角与窗边的光"></div>
+          <h3><a href="/#channels">《六楼的姐姐》：她总在楼梯口分菜</a></h3>
+          <p>作者南塘。筒子楼六楼六户人家共用一个灶台，姐姐每次多炒一份，分给下夜班的邻居。写的是分菜，记的却是1999年的菜价与工分。</p>
+          <p class="meta"><span class="pill">已完结</span><span>6章</span><span>更新于11-02</span></p>
+        </article>
+        <article class="card">
+          <div class="thumb"><img src="https://picsum.photos/seed/sister-clock-04/640/360" width="640" height="360" loading="lazy" alt="医院走廊的挂钟与长椅"></div>
+          <h3><a href="/#channels">《值夜班的姐姐》：白大褂口袋里的糖</a></h3>
+          <p>作者苏木。医院急诊科的姐姐每次值夜班都在口袋放两颗水果糖，一颗给病人，一颗留给自己。弟弟做实习医生后才知道原因。</p>
+          <p class="meta"><span class="pill">已完结</span><span>8章</span><span>更新于10-29</span></p>
+        </article>
+        <article class="card">
+          <div class="thumb"><img src="https://picsum.photos/seed/sister-rain-05/640/360" width="640" height="360" loading="lazy" alt="雨中的公交站台与湿透的地面"></div>
+          <h3><a href="/#channels">《末班公交》：姐姐把座位让了三年</a></h3>
+          <p>作者林枝。姐姐在纺织厂上三班倒，末班公交从不让弟弟站着。后来弟弟跑业务买了车，第一件事是绕路去接她，被拒。</p>
+          <p class="meta"><span class="pill">已完结</span><span>5章</span><span>更新于10-26</span></p>
+        </article>
+        <article class="card">
+          <div class="thumb"><img src="https://picsum.photos/seed/sister-book-06/640/360" width="640" height="360" loading="lazy" alt="书桌上一本翻开的旧书与眼镜"></div>
+          <h3><a href="/#channels">《借来的课本》：姐姐读到高二就停了</a></h3>
+          <p>作者半坡。姐姐把课本留给弟弟，自己在扉页写满批注。弟弟多年后翻出批注，发现有一页被撕掉，另有一页写了又划掉。</p>
+          <p class="meta"><span class="pill">已完结</span><span>10章</span><span>更新于10-23</span></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 最新更新 -->
+    <section class="block" id="latest" aria-labelledby="h-latest">
+      <div class="sec-head">
+        <div class="st">
+          <h2 id="h-latest">最新更新（11月1日至11月8日）</h2>
+          <p class="tagline">按发布时间排列，标注章节与改动类型。</p>
+        </div>
+      </div>
+      <ul class="list">
+        <li>
+          <time datetime="2026-11-06">11-06</time>
+          <div class="li-body"><b>《雨夜借伞的人》第14章上线</b>
+            <p>砚台旧事补写1998年冬天的段落，改动时间线：原写“腊月廿三”，实际应为“腊月十六”。修订说明见章节末。</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2026-11-05">11-05</time>
+          <div class="li-body"><b>《方言厨房》第7章：猪油渣炒年糕</b>
+            <p>阿禾记录姐姐报菜名的原声片段文字稿，共提及4道菜、2个价格。读者指出“黏糕”应为“年糕”，作者已在文末回应。</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2026-11-04">11-04</time>
+          <div class="li-body"><b>长文《六楼的姐姐》修订第3章灶台分配</b>
+            <p>南塘补充1999年6月筒子楼公用电表分摊表，六户人家的用电量逐条列出，原文只有笼统描述。</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2026-11-03">11-03</time>
+          <div class="li-body"><b>新稿《值夜班的姐姐》获准完结</b>
+            <p>苏木写到急诊科搬迁，故事自然收束。编辑核对两处药物名称，作者修改一处剂量表述。</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2026-11-01">11-01</time>
+          <div class="li-body"><b>11月投稿主题公布：姐姐的手</b>
+            <p>投稿要求写一件具体物品：织毛衣的竹针、端锅的手套、记工分的本子。每人限投一篇，截止11月20日。</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 分类入口 -->
+    <section class="block" id="channels" aria-labelledby="h-channels">
+      <div class="sec-head">
+        <div class="st">
+          <h2 id="h-channels">分类入口</h2>
+          <p class="tagline">按关系、场景、年代划分，括号内为收录篇数。</p>
+        </div>
+      </div>
+      <nav class="tag-index" aria-label="内容分类索引">
+        <a href="/#deep">长姐持家 <small>21</small></a>
+        <a href="/#deep">邻家姐姐 <small>44</small></a>
+        <a href="/#deep">年上同事 <small>33</small></a>
+        <a href="/#deep">方言厨房 <small>18</small></a>
+        <a href="/#deep">雨夜借伞 <small>27</small></a>
+        <a href="/#deep">旧信重读 <small>15</small></a>
+        <a href="/#deep">厂区班次 <small>26</small></a>
+        <a href="/#deep">筒子楼记 <small>19</small></a>
+        <a href="/#deep">姐弟叙事 <small>71</small></a>
+        <a href="/#deep">老照片考据 <small>12</small></a>
+        <a href="/#deep">菜价与工分 <small>9</small></a>
+        <a href="/#deep">长文写作方法 <small>36</small></a>
+      </nav>
+    </section>
+
+    <!-- 双栏：深度解析 + 侧栏 -->
+    <div class="layout-2">
+      <div>
+        <section class="block" id="deep" aria-labelledby="h-deep" style="padding-top:clamp(30px,4.4vw,54px)">
+          <div class="sec-head">
+            <div class="st">
+              <h2 id="h-deep">深度解析：温柔不是性格，是一连串可数的让步</h2>
+              <p class="tagline">全站唯一主体阅读区，结论可被引用，也可被反驳。</p>
+            </div>
+          </div>
+          <div class="deep">
+            <div class="body-cols">
+              <h3>判断一：能记住具体数字的温柔才算成立</h3>
+              <p>把“姐姐很温柔”换成一个可核对的数字，故事立刻有了骨架。《长姐的账本》在1997年那一章列了每月汇款的六个数字：160、155、158、172、160、148元。第七个月少了12元，因为她自己买了一双胶鞋，旧的已经开胶。这12元就是温柔的成本，比任何形容词都具体。</p>
+              <p>反过来看，只写“她总是把最好的留给弟弟”的段落，读者记不住，作者第二天也写不下去。判断标准很简单：删掉所有形容词，看看这段是否还能剩下一个日期、一个数额、一件物品。</p>
+              <div class="callout"><b>可引用版本：</b>长姐叙事里，温柔的可核对单位是“让出的数额与次数”。没有账目的温柔，是作者替人物许的愿。</div>
+
+              <h3>判断二：姐姐必须拒绝一次，人物才立得住</h3>
+              <p>《借来的课本》第6章，弟弟提出让姐姐复读，她拒绝了。理由写得极具体：家里还欠着820元化肥款，父亲腰伤不能下地，她若复读，弟弟就得辍学。拒绝之后她照旧做饭、照旧批改弟弟的作业，但两人三天没说话。</p>
+              <p>这一拒绝改变了此前的叙事节奏。此前五章读者看到的是一个只会让的姐姐，第6章之后，她的让变成了选择，而不是天性。有代价的拒绝，是把人物从“性格好”推到“有立场”的一步。凡是全篇没有拒绝的姐姐，读起来都像纸片。</p>
+
+              <h3>判断三：争议段落通常卡在“谁的记忆更早”</h3>
+              <p>《雨夜借伞的人》修订前，作者写伞是1998年腊月廿三借的；读者@桥头阿四 在10月28日留言，说那年腊月村里在修渠，腊月十六就停了工，伞应是十六。作者核对自家旧账本，确认是十六，随即在11月6日发布修订说明。</p>
+              <p>这类分歧不是谁撒谎，而是家庭成员对同一件事的记忆锚点不同。有人记日期靠节气，有人靠工资发放日。写作者能做的，是把两种说法都留下，注明出处与核查过程。</p>
+              <div class="checklist">
+                <h4>说法核查清单（照这个顺序核对）</h4>
+                <ol>
+                  <li>有没有带日期的原始物件：账本、车票、工资条、信件邮戳。<span>——优先于口述。</span></li>
+                  <li>当事人以外的第二位在场者怎么说。<span>——注意转述会改措辞。</span></li>
+                  <li>当时的地方公共事件：停工、开学、集市、停电。<span>——用作时间锚点。</span></li>
+                  <li>作者最终采信哪一种，理由写在第几段。<span>——修订说明要能定位。</span></li>
+                </ol>
+              </div>
+
+              <h3>判断四：场景越具体，越不像编的</h3>
+              <p>《六楼的姐姐》里，灶台分配按户口人数轮值，六户人家一周轮一次，每户用灶时间是19点到20点半。这个时间设定来自南塘家当年的公用电表分摊表：1999年6月，六户用电量为11、9、14、7、12、10度。数字一列，虚构与纪实的边界就清楚了。</p>
+              <p>对比同类作品常写的“大家挤在一个厨房里，很热闹”，前者能查到电表数字，后者只能查到情绪。可核对的事实越密，读者越愿意相信那个没被写出来的部分。</p>
+
+              <h3>判断五：这类叙事正在从“牺牲”转向“协商”</h3>
+              <p>2026年10月收录的36篇投稿里，有24篇写到姐姐主动提出条件：可以帮弟弟带孩子，但周末必须由弟弟接送；可以借钱，但要写借条。作为对照，站内2020年前收录的稿件中，这类协商情节不到两成。</p>
+              <p>这不是道德水平的变化，是写作者位置的变化：越来越多投稿者本身就是被照顾的弟弟妹妹，他们开始写姐姐的边界，而不只是姐姐的付出。这一转向值得记录，也值得怀疑——它可能只是投稿人群变了，未必代表现实中的家庭关系整体改善。</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <aside class="sidebar" aria-label="侧栏导航与速览">
+        <div class="side-card">
+          <h3>本页栏目</h3>
+          <nav id="sideNav" aria-label="页内导航">
+            <ul>
+              <li><a href="/#overview">领域概览</a></li>
+              <li><a href="/#featured">精选长文推荐</a></li>
+              <li><a href="/#latest">最新更新</a></li>
+              <li><a href="/#channels">分类入口</a></li>
+              <li><a href="/#deep">深度解析</a></li>
+              <li><a href="/#guide">体验指南</a></li>
+              <li><a href="/#voices">读者评论</a></li>
+              <li><a href="/#faq">常见问题</a></li>
+              <li><a href="/#rank">本月榜单</a></li>
+              <li><a href="/#rel">相关推荐</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="side-card">
+          <h3>本周在读最多</h3>
+          <ul class="side-list">
+            <li><a href="/#featured">《雨夜借伞的人》</a><time datetime="2026-11-06">11-06 修订</time></li>
+            <li><a href="/#featured">《方言厨房》</a><time datetime="2026-11-05">11-05 更新</time></li>
+            <li><a href="/#featured">《六楼的姐姐》</a><time datetime="2026-11-04">11-04 修订</time></li>
+            <li><a href="/#featured">《借来的课本》</a><time datetime="2026-10-23">10-23 完结</time></li>
+          </ul>
+        </div>
+        <div class="side-card">
+          <h3>投稿状态</h3>
+          <p style="font-size:14.5px;color:var(--ink-soft);margin:0">11月主题“姐姐的手”收稿 <b style="color:var(--brand)">43 篇</b>，审核通过 12 篇，平均回复时长 41 小时。下期主题于11月20日公布。</p>
+        </div>
+      </aside>
+    </div>
+
+    <!-- 体验指南 -->
+    <section class="block" id="guide" aria-labelledby="h-guide">
+      <div class="sec-head">
+        <div class="st">
+          <h2 id="h-guide">阅读与投稿体验指南</h2>
+          <p class="tagline">四步读完一篇长文，三步判断一篇投稿值不值得读。</p>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div>
+          <h3 style="color:var(--brand)">读长文的四步</h3>
+          <ol class="steps">
+            <li><b>先看文末的修订记录</b><p>每篇末尾列出改动日期与原因。日期集中在11月6日附近的，多半刚做过史实核对。</p></li>
+            <li><b>抓住第一件具体物品</b><p>雨伞、账本、搪瓷碗、课本扉页。物品出现的位置通常在首章前300字内，是全文的轴。</p></li>
+            <li><b>找姐姐第一次拒绝</b><p>从拒绝的位置往后读，人物的立场会变。找不到拒绝的，可以判断为纯抒情稿。</p></li>
+            <li><b>核对一处数字</b><p>账目、班次、菜价、电表度数。能对上的数字越多，故事越结实。</p></li>
+          </ol>
+        </div>
+        <div>
+          <h3 style="color:var(--brand)">判断一篇稿子是否值得读</h3>
+          <div class="compare">
+            <div>
+              <h4 style="color:var(--ok)">值得读的信号</h4>
+              <ul>
+                <li>有具体年份与月份，如1999年6月</li>
+                <li>姐姐有职业细节：三班倒、摊位号、科室名</li>
+                <li>对话保留方言词，且给出普通话释义</li>
+                <li>冲突落在钱、时间、居住空间上</li>
+                <li>文末有修订说明与参考物件</li>
+              </ul>
+            </div>
+            <div>
+              <h4 style="color:var(--warn)">需要警惕的写法</h4>
+              <ul>
+                <li>通篇只有“她总是”“她从不”</li>
+                <li>姐姐没有工作单位，也不缺钱</li>
+                <li>所有冲突都由弟弟的愧疚化解</li>
+                <li>地名、时间、人数前后不一致</li>
+                <li>结尾用大段排比代替结局</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 用户评论 -->
+    <section class="block" id="voices" aria-labelledby="h-voices">
+      <div class="sec-head">
+        <div class="st">
+          <h2 id="h-voices">读者评论（11月1日至11月8日）</h2>
+          <p class="tagline">保留原话，含不同意见。标“具体”的评论指向单篇条目。</p>
+        </div>
+      </div>
+      <div class="grid-3">
+        <div class="quote-card">
+          <p>第14章把腊月廿三改成十六，我心里那口气才顺。我们村那年确实十六停工，账本上写着。</p>
+          <p class="who"><span class="avatar">四</span>桥头阿四 <span class="sentiment">具体</span></p>
+        </div>
+        <div class="quote-card">
+          <p>《方言厨房》里“猪油渣炒黏糕”那段我笑了半天。姐姐报菜名不写菜单，全靠弟弟现场听，这种细节比煽情有用。</p>
+          <p class="who"><span class="avatar">麦</span>麦子熟了 <span class="sentiment">具体</span></p>
+        </div>
+        <div class="quote-card">
+          <p>说实话《六楼的姐姐》有点平。灶台分配写得好，但弟弟从头到尾没做过一件像样的错事，读着像回忆录，不像小说。</p>
+          <p class="who"><span class="avatar">铁</span>铁皮铅笔 <span class="sentiment crit">具体</span></p>
+        </div>
+        <div class="quote-card">
+          <p>《借来的课本》那页写了又划掉的批注，我猜是姐姐的志愿。作者没写，这留白比写出来好。</p>
+          <p class="who"><span class="avatar">南</span>南塘旧客 <span class="sentiment neutral">具体</span></p>
+        </div>
+        <div class="quote-card">
+          <p>排行第五的《末班公交》我读不进去。让座位让三年，太顺了，姐姐一次都没抱怨过。现实里哪有这么好脾气。</p>
+          <p class="who"><span class="avatar">晚</span>晚风撑船 <span class="sentiment crit">具体</span></p>
+        </div>
+        <div class="quote-card">
+          <p>投稿主题“姐姐的手”挺好，但希望别全写织毛衣。我姐在菜市场杀鱼，手上全是口子，那也算手。</p>
+          <p class="who"><span class="avatar">阿</span>阿佘 <span class="sentiment neutral">具体</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="block" id="faq" aria-labelledby="h-faq">
+      <div class="sec-head">
+        <div class="st">
+          <h2 id="h-faq">常见问题</h2>
+          <p class="tagline">点击问题展开回答。</p>
+        </div>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>姐姐的温柔让我沉沦海角社区收录哪类故事？</summary>
+          <div class="ans"><p>以姐弟、邻家姐姐、长姐承担家务等关系为核心的长篇叙事。常见标签有长姐持家、雨夜借伞、旧信重读、方言厨房、筒子楼记。每篇标注首次发布时间、连载状态与作者笔名，长度多在3000字以上，最长的一篇《长姐的账本》约3.6万字。</p></div>
+        </details>
+        <details>
+          <summary>写长姐叙事时怎么避免人物扁平？</summary>
+          <div class="ans"><p>给姐姐设置至少一项具体负担：每月汇款金额、凌晨几点的班次、要照顾的弟妹人数。再让她拒绝一次。有代价的拒绝会把温柔从性格形容词变成行为选择。《借来的课本》第6章拒复读，就是这样的转折点。</p></div>
+        </details>
+        <details>
+          <summary>站内的连载长文可以一次读完整吗？</summary>
+          <div class="ans"><p>已完结的长文可按章节顺序阅读，章节页有上一章、下一章与目录返回。连载中的作品每章末尾标出下次更新的预计日期。《方言厨房》目前更到第7章，作者阿禾给出的下一章时间是11月12日。</p></div>
+        </details>
+        <details>
+          <summary>为什么同一段故事在不同栏目里说法不一样？</summary>
+          <div class="ans"><p>深度解析保留作者原话与核查结论，最新更新只记改动结果，读者评论记录转述。例如借伞时间，原文写腊月廿三，读者@桥头阿四 指出应为十六，修订说明采信了后者。遇到冲突，以带日期与账号的原话为准，并把差异写进说法核查清单。</p></div>
+        </details>
+        <details>
+          <summary>投稿需要写真实姓名和联系方式吗？</summary>
+          <div class="ans"><p>不必。投稿表单只要求笔名、故事发生的大致年份与城市等级，可选填可联系邮箱。涉及第三方隐私的地名、门牌、工作单位请做模糊处理。审核在48小时内回复一次结果，11月平均回复时长为41小时。</p></div>
+        </details>
+      </div>
+    </section>
+
+    <!-- 相关资讯 + 榜单 -->
+    <section class="block" id="rank" aria-labelledby="h-rank">
+      <div class="sec-head">
+        <div class="st">
+          <h2 id="h-rank">相关资讯与本月亮眼榜单</h2>
+          <p class="tagline">资讯按时间线排列，榜单按完读率与留言数综合计分。</p>
+        </div>
+      </div>
+      <div class="grid-2" style="align-items:start">
+        <div>
+          <h3 style="color:var(--brand)">相关资讯 · 时间线</h3>
+          <ul class="timeline">
+            <li><time datetime="2026-11-06">11月6日</time><b>《雨夜借伞的人》发布修订说明</b><p>作者砚台旧事核对旧账本后，把借伞日期从腊月廿三改为腊月十六，并补充当年村里修渠停工的时间依据。</p></li>
+            <li><time datetime="2026-11-03">11月3日</time><b>《值夜班的姐姐》调整用药剂量表述</b><p>苏木按编辑意见修改两处，急诊科搬迁作为结局保留。读者@夜班小许 提供了2021年科室排班表的截图参考。</p></li>
+            <li><time datetime="2026-10-30">10月30日</time><b>编辑组公布10月完读率数据</b><p>当月收录61篇，完读率超过70%的有19篇，其中长姐持家型占7篇，方言厨房型占4篇。数据取自站内阅读时长统计。</p></li>
+            <li><time datetime="2026-10-25">10月25日</time><b>筒子楼专题合集上线</b><p>收录《六楼的姐姐》等9篇以共用厨房、公用电表为背景的作品，按楼道号排列，附1998至2001年公用电费分摊样表。</p></li>
+          </ul>
+        </div>
+        <div>
+          <h3 style="color:var(--brand)">本月完读榜（截至11月8日）</h3>
+          <ol class="rank">
+            <li><div class="r-main"><b>《长姐的账本》</b><span>1994—2003年逐月账目，共3.6万字</span></div><span class="r-score">完读 88%</span></li>
+            <li><div class="r-main"><b>《雨夜借伞的人》</b><span>借伞七年，9章，修订于11月6日</span></div><span class="r-score">完读 84%</span></li>
+            <li><div class="r-main"><b>《方言厨房》</b><span>报菜名与听错菜名，27道家常菜</span></div><span class="r-score">完读 81%</span></li>
+            <li><div class="r-main"><b>《借来的课本》</b><span>扉页批注与被撕掉的一页</span></div><span class="r-score">完读 76%</span></li>
+            <li><div class="r-main"><b>《六楼的姐姐》</b><span>1999年6月六户电表分摊表</span></div><span class="r-score">完读 72%</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 相关推荐 -->
+    <section class="block" id="rel" aria-labelledby="h-rel">
+      <div class="sec-head">
+        <div class="st">
+          <h2 id="h-rel">相关推荐</h2>
+          <p class="tagline">按你正在读的条目往下延展，标签可直接进入对应分类。</p>
+        </div>
+      </div>
+      <div class="rel-tags">
+        <a href="/#featured">长姐持家故事推荐</a>
+        <a href="/#featured">雨夜借伞全文阅读</a>
+        <a href="/#featured">方言厨房菜名考</a>
+        <a href="/#channels">筒子楼公用电表</a>
+        <a href="/#guide">姐弟叙事投稿指南</a>
+        <a href="/#deep">说法核查清单</a>
+        <a href="/#voices">读者评论精选</a>
+        <a href="/#rank">本月完读榜</a>
+        <a href="/#latest">修订说明汇总</a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <span aria-hidden="true">
+            <svg width="34" height="34" viewBox="0 0 64 64" role="img">
+              <rect width="64" height="64" rx="14" fill="#e8a87c"/>
+              <path d="M18 45c7-2 9-9 13-15s9-8 14-6" stroke="#3a2118" stroke-width="4" fill="none" stroke-linecap="round"/>
+              <circle cx="21" cy="21" r="4.2" fill="#6b3b2e"/>
+            </svg>
+          </span>
+          <span>
+            <b>姐姐的温柔让我沉沦海角社区</b>
+            <span>长文阅读 · 关系叙事</span>
+          </span>
+        </div>
+        <p class="foot-pitch">把让出的数额、拒绝的时机与方言菜名记下来，故事就站得住。</p>
+      </div>
+      <div class="foot-col">
+        <h4>阅读</h4>
+        <ul>
+          <li><a href="/#featured">精选长文</a></li>
+          <li><a href="/#latest">最新更新</a></li>
+          <li><a href="/#rank">本月榜单</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>分类</h4>
+        <ul>
+          <li><a href="/#channels">长姐持家</a></li>
+          <li><a href="/#channels">邻家姐姐</a></li>
+          <li><a href="/#channels">方言厨房</a></li>
+          <li><a href="/#channels">旧信重读</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>参与</h4>
+        <ul>
+          <li><a href="/#guide">投稿指南</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#voices">读者评论</a></li>
+          <li><a href="/#rel">相关推荐</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>站内条目、作者笔名、留言账号与更新日期均为示例数据，用于展示内容结构。资料更新至 2026-11-08，正文可核对项见“最新更新”栏目。</span>
+      <span>© 2026 海角社区 · 阅读与写作</span>
+    </div>
+  </div>
+</footer>
+
+<button id="toTop" type="button" aria-label="回到页面顶部">顶部</button>
+
+<script>
+(function(){
+  "use strict";
+  var navToggle = document.getElementById('navToggle');
+  var mainNav = document.getElementById('mainNav');
+
+  // 移动端菜单
+  if(navToggle && mainNav){
+    navToggle.addEventListener('click', function(){
+      var open = mainNav.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      navToggle.textContent = open ? '收起菜单' : '栏目菜单';
+    });
+    mainNav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A' && window.matchMedia('(max-width:760px)').matches){
+        mainNav.classList.remove('open');
+        navToggle.setAttribute('aria-expanded','false');
+        navToggle.textContent = '栏目菜单';
+      }
+    });
+  }
+
+  // 页内锚点平滑滚动，为吸顶预留高度
+  function stickyOffset(){
+    var st = document.querySelector('.sticky-top');
+    return (st ? st.offsetHeight : 0) + 12;
+  }
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a[href^="/#"]');
+    if(!a) return;
+    var id = a.getAttribute('href').slice(2);
+    var target = document.getElementById(id);
+    if(!target) return;
+    e.preventDefault();
+    var top = target.getBoundingClientRect().top + window.pageYOffset - stickyOffset();
+    window.scrollTo({top: top, behavior: 'smooth'});
+    history.replaceState(null, '', '/#' + id);
+  });
+
+  // 侧栏滚动高亮
+  var sideLinks = Array.prototype.slice.call(document.querySelectorAll('#sideNav a'));
+  var sections = sideLinks.map(function(a){
+    return document.getElementById(a.getAttribute('href').slice(2));
+  }).filter(Boolean);
+  function highlight(){
+    var off = stickyOffset() + 40;
+    var cur = null;
+    sections.forEach(function(s){
+      if(s.getBoundingClientRect().top - off <= 0) cur = s;
+    });
+    sideLinks.forEach(function(a){
+      a.classList.toggle('cur', cur && a.getAttribute('href') === '/#' + cur.id);
+    });
+  }
+
+  // 回到顶部
+  var toTop = document.getElementById('toTop');
+  function onScroll(){
+    if(window.pageYOffset > 620){ toTop.classList.add('show'); }
+    else { toTop.classList.remove('show'); }
+    highlight();
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+  onScroll();
+
+  // 本地查找
+  var form = document.getElementById('searchForm');
+  var input = document.getElementById('q');
+  var msg = document.getElementById('searchMsg');
+  var index = [];
+  document.querySelectorAll('main h2, main h3, main summary, main .tag-index a, main .rel-tags a, main .card p').forEach(function(el){
+    var text = (el.textContent || '').replace(/\s+/g,' ').trim();
+    if(text.length >= 4) index.push({text:text, el:el});
+  });
+  function doSearch(e){
+    e.preventDefault();
+    var q = input.value.trim();
+    if(!q){
+      msg.hidden = true; msg.textContent = '';
+      return;
+    }
+    var hits = index.filter(function(item){ return item.text.indexOf(q) !== -1; });
+    if(hits.length === 0){
+      msg.hidden = false;
+      msg.textContent = '没有找到与“' + q + '”匹配的条目，换用作者名、菜名或年份试试。';
+      return;
+    }
+    msg.hidden = false;
+    msg.textContent = '找到 ' + hits.length + ' 处，正在前往第一处：' + hits[0].text.slice(0,26) + '…';
+    var target = hits[0].el;
+    var top = target.getBoundingClientRect().top + window.pageYOffset - stickyOffset();
+    window.scrollTo({top: top, behavior:'smooth'});
+    if(target.tagName === 'SUMMARY'){
+      var d = target.parentElement;
+      if(d && d.tagName === 'DETAILS') d.open = true;
+    }
+  }
+  form.addEventListener('submit', doSearch);
+})();
+</script>
+</body>
+                                                                     </html>
